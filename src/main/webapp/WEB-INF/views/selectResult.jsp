@@ -22,8 +22,8 @@
   <tbody>
   <c:forEach var="user_info" items="${user_info}">
 	    <tr>
-	      <td>${user_info.user_id}</td>
-	      <td>${user_info.user_name}</td>
+	      <td>${user_info.userId}</td>
+	      <td>${user_info.userName}</td>
 	      <td>${user_info.telephone}</td>
 	    </tr>
 	</c:forEach>

@@ -32,7 +32,7 @@
   <form:button>検索</form:button>
 </form:form>
 <div>
-  <a href="menu">メニューに戻る</a>
+  <a href="menu">メニューに行く</a>
 </div>
 </body>
 </html>

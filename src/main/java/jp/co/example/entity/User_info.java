@@ -2,8 +2,8 @@ package jp.co.example.entity;
 
 public class User_info {
 
-	private String user_id;
-	private String user_name;
+	private Integer userId;
+	private String userName;
 	private String telephone;
 	private String password;
 
@@ -11,33 +11,33 @@ public class User_info {
 
 	}
 
-	public User_info(String user_id, String user_name, String telephone) {
-		this.user_id = user_id;
-		this.user_name = user_name;
+	public User_info(Integer userId, String user_name, String telephone) {
+		this.userId = userId;
+		this.userName = user_name;
 		this.telephone = telephone;
 	}
 
-	public User_info(String user_id, String user_name, String telephone, String password) {
-		this.user_id = user_id;
-		this.user_name = user_name;
+	public User_info(Integer userId, String user_name, String telephone, String password) {
+		this.userId = userId;
+		this.userName = user_name;
 		this.telephone = telephone;
 		this.password = password;
 	}
 
-	public String getUser_id() {
-		return user_id;
+	public Integer getUserId() {
+		return userId;
 	}
 
-	public void setUser_id(String user_id) {
-		this.user_id = user_id;
+	public void setUserId(Integer userId) {
+		this.userId = userId;
 	}
 
-	public String getUser_name() {
-		return user_name;
+	public String getUserName() {
+		return userName;
 	}
 
-	public void setUser_name(String user_name) {
-		this.user_name = user_name;
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
 
 	public String getTelephone() {
@@ -55,5 +55,6 @@ public class User_info {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+
 
 }
